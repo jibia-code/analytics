@@ -6,11 +6,11 @@ import CPUUsageGraph from '../GraphCard/CPUUsageGraph'
 import MemoryGraph from '../GraphCard/MemoryGraph'
 import SearchClicksGraph from '../GraphCard/SearchClicksGraph'
 import { Container, Row, Col } from "react-bootstrap"
-import '../../App.css';
+import './App.css';
 
 const UPDATE_SPEED_IN_SEC = 3;
 
-class Home extends Component {
+class User extends Component {
   state = {
     users: 0,
     activeUsers: 0,
@@ -173,4 +173,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default User;

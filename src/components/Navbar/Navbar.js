@@ -16,11 +16,13 @@ const CustomNavbar = () => <Navbar bg="light" variant="light" expand="lg">
     <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                <NavDropdown.Item Link="/home">General</NavDropdown.Item>
+                <NavDropdown.Item Link="/user">User</NavDropdown.Item>
+                <NavDropdown.Item Link="/business">Business</NavDropdown.Item>
+                <NavDropdown.Item Link="/sales">Sales</NavDropdown.Item>
+                <NavDropdown.Item Link="/marketing">Marketing</NavDropdown.Item>
+                <NavDropdown.Item Link="/tech">Tech</NavDropdown.Item>
+                <NavDropdown.Item Link="/finance">Finance</NavDropdown.Item>
             </NavDropdown>
         </Nav>
         <Nav>
