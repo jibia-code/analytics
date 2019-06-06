@@ -11,7 +11,7 @@ const options = {
             {
                 type: "time",
                 time: {
-                    unit: "second"
+                    unit: "minute"
                 }
             }
         ],

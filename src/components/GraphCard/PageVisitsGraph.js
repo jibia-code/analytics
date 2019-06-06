@@ -11,7 +11,7 @@ const options = {
             {
                 type: "time",
                 time: {
-                    unit: "second"
+                    unit: "minute"
                 }
             }
         ],
@@ -20,7 +20,7 @@ const options = {
                 ticks: {
                     beginAtZero: true,
                     min: 0,
-                    suggestedMax: 100,
+                    suggestedMax: 5,
                     precision: 0
 
                 }
